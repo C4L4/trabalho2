@@ -200,13 +200,13 @@ button:hover {
 }
 #banner2{
     background-image: url("banner.jpg");
-    background-size: 1850px;
+    background-size: 100%;
     background-repeat: no-repeat;
-    width: 115.7em;
+    width: 87%;
     height: 17.7em;
     margin: 0;
     border: 9px double rgba(8, 68, 77, 0.776);
-    position: fixed;
+
     margin-left: 34px;
     }
 .dnone{
