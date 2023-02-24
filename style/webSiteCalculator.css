@@ -200,10 +200,10 @@ button:hover {
 }
 #banner2{
     background-image: url("banner.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 87%;
-    height: 17.7em;
+    height: 15%;
     margin: 0;
     border: 9px double rgba(8, 68, 77, 0.776);
 
