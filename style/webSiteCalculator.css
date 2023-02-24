@@ -918,4 +918,41 @@ https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
     justify-content: center;
 }
 
+@font-face {
+    font-family: Inter;
+    src: url(../style/fontes/);
+}
+*{
+    font-family: 'Arial', 'Helvetica';
+}
+td{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+table{
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom, rgb(225, 244, 252), SkyBlue);
+    padding: 15px;
+    margin-top: 7px;
+}
+.boletim{
+    display: none;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.fechaBoletim{
+    width: 20px;
+    height: 20px;
+    background-image: url("x.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    background-position: -1px -1px;
+    display: none;
+    margin-left: 1483px;
+    margin-top: 30px;
+}
+#space{
+    padding-left: 20px;
+}
 
