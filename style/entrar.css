@@ -6,9 +6,9 @@ body{
 }
 .banner{
     background-image: url("banner.jpg");
-background-size: 1850px;
+background-size: 100%;
 background-repeat: no-repeat;
-width: 115.7em;
+width: 87%;
 height: 16.7em;
 margin: 0;
 position: fixed;
