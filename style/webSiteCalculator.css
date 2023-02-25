@@ -257,6 +257,11 @@ a{
     transition: .2s;
     margin: auto 3em auto 70em;
 }
+@media screen and (max-width:1000px){
+    .aa1{
+        margin: auto 3em auto 30em;
+    }
+}
 
 .aa3{
     transition: .2s;
