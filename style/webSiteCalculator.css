@@ -46,7 +46,7 @@ main {
 
 #formulario {
     width: 50%;
-    margin-top: 300px;
+    margin-top: 250px;
     padding: 1rem;
     margin-bottom: 0.625rem;
     background-color: #15172b;
@@ -420,7 +420,7 @@ h1{
   }
   #calculadora{
     border: 5px dashed rgb(0, 0, 0);
-    width: 790px;
+    width: 690px;
     height: 540px;
     margin-left: 14em;
       
