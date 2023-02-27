@@ -12,10 +12,12 @@
 footer{
     display: flex;
     justify-content: right;
+    align-items: bottom;
 }
 .init_txt{
     color: white;
-    font-size: 17px;
+    font-size: 21px;
+    margin-top: 300px;
 }
 .show{
     display: flex;
