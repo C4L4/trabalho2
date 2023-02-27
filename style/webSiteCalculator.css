@@ -35,7 +35,6 @@ body {
     background-image: linear-gradient(rgb(255, 255, 255),rgba(22, 123, 136, 0.774), rgb(13, 102, 124), rgb(13, 100, 116));
     background-repeat: no-repeat;
     background-attachment: fixed;
-    position: fixed;
 }
 
 main {
