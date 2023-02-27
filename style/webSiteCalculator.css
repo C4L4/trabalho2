@@ -201,12 +201,12 @@ button:hover {
     background-image: url("banner.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 87%;
-    height: 12%;
+    width: 93%;
+    height: 19%;
     margin: 0;
     border: 9px double rgba(8, 68, 77, 0.776);
 
-    margin-left: 34px;
+    margin:0 auto;
     }
 .dnone{
     display: none;
@@ -254,7 +254,7 @@ a{
 
 .aa1{
     transition: .2s;
-    margin: auto 3em auto 70em;
+    margin: auto 3em auto 50em;
 }
 @media screen and (max-width:1000px){
     .aa1{
