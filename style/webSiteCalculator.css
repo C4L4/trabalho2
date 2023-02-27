@@ -9,6 +9,14 @@
 .text{
     margin-left: -780px;
 }
+footer{
+    display: flex;
+    justify-content: right;
+}
+.init_txt{
+    color: white;
+    font-size: 17px;
+}
 .show{
     display: flex;
     
