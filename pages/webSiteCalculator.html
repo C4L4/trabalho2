@@ -457,30 +457,53 @@
     </tbody>
   </table>
 </div>
-    
-    <p class="init_txt" style="margin:250px 180px 0 20px;">
-        <h1>WEBSITE CALCULATOR A WEBSITE</h1> <br>
-CALCULATOR é uma empresa com nível de planejamento 
+<div class="text-pos" id="text">    
+  <h1 style="margin-top: -10%; margin-bottom: 5%;">WEBSITE CALCULATOR</h1>
+    <p class="init_txt">
+  
+É uma empresa com nível de planejamento 
 operacional, mais detalhado, com foco na definição de atividades 
-diárias e semanais. Projetado para ajudar os usuários a resolver 
+diárias e semanais. Projetado para ajudar os usuários, como professores e alunos, a resolverem
 cálculos complexos de maneira fácil e rápida, usando calculadoras 
 específicas para tópicos específicos, como: cálculo de médias 
-gerais, problemas com contas ou operações diversas. O site foi 
-desenvolvido com extrema tecnologia e conta com uma equipe de 
-desenvolvimento qualificada. Alvo Execute cálculos confiáveis e 
-forneça segurança para os usuários. Além de trazer mais facilidade, 
+gerais, problemas com contas ou operações diversas.</p>
+<br>
+<p>O site foi 
+desenvolvido com tecnologia básica e conta com uma equipe de 
+desenvolvimento qualificada. Como alvo executar cálculos confiáveis e 
+forneçer segurança para os usuários. Além de trazer mais facilidade, 
 menos latência e mais agilidade. Visa revolucionar o mercado de 
-matemática e trazer mais tecnologia. 
+matemática e trazer mais tecnologia.</p>
+<br>
+<p>
 A Calculadora de Médias é um recurso exclusivo para professores 
 que facilita fazer anotações de atividades, tarefas e exames e obter 
-seus resultados combinados. 
+seus resultados combinados.
+</p><br>
+<p>
 Uma calculadora é um dispositivo que realiza cálculos numéricos, 
 como adição, subtração, multiplicação e divisão, para ajudar os 
 alunos a verificar se suas médias estão corretas 
 Terá uma aba com uma área de vídeo aulas separadas para cada 
-matéria.</p>
+matéria.
+</p><br>
+<p>
+E também uma área para video aulas, focado principalmente em auxiliar
+ os estudantes no seu aprendizado ou retomada de conteúdo para prestar
+  vestibulares como: ENEM, FUVEST e entre outros. Além do mais, uma área
+   para pegar checklist de conteúdo para vestibular, folha de redação de
+    treino e mapa mental, contendo também uma Área exclusiva para estudantes
+     do itinerario de Desenvolvimento de sistemas.</p>
+</p>
+<br>
+<p>
+  Além do mais, um boletim exclusivo para o curso Desenvolvimento de sistemas 
+  como teste, porém com o avançar do projeto, iremos procurar melhorar,
+   tranformando-o em um boletim oficial, não só para o curso de desenvolvido, mas sim para todas as outras matérias, recebendo atualizações com o passar do tempo.
+</p>
+</div>
     <footer>
-        <img src="icon.png" alt="icone da página" style="width: 170px; height: 170px;margin-left: 90%; margin-top: 10%;">
+        <img src="icon.png" id="icon" alt="icone da página" style="width: 200px; height: 200px;margin-left: 90%; margin-top: -5%; ">
         
     </footer>
         <script src='js/bootstrap.min.js'></script>
@@ -652,17 +675,20 @@ function verificarOperador(valor) {
         tst2.addEventListener("click", ()=>{
             materias.style.display = "flex"
         })
-        
+let icon = document.getElementById("icon")
 let boletim = document.getElementById("boletim")
 let btnBoletim = document.getElementById("btnBoletim")
 let fechaBoletim = document.getElementById("fechaBoletim")
 btnBoletim.addEventListener("click", ()=>{
     boletim.style.display = "flex"
     fechaBoletim.style.display = "block"
+    rosa.style.display = "none"
+
 })
 fechaBoletim.addEventListener("click", ()=>{
-    boletim.style.display = ""
+    boletim.style.display = "none"
     fechaBoletim.style.display = "none"
+    rosa.style.display = "block"
 })
     </script>
 </body>
