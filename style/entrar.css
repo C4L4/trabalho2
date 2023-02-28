@@ -5,7 +5,7 @@ body{
     background-attachment: fixed;
 }
 .banner{
-  background-image: url("icon.png");
+  background-image: url("banner.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 87%;
@@ -13,6 +13,7 @@ body{
   margin: 0 auto;
   border-radius: 70px;
   box-shadow: 13px 13px 0 black;
+  margin-top: 300px;
   
 }
 
