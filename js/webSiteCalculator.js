@@ -85,6 +85,7 @@ function validarNumero(numero) {
         }, 4000);
     }
 }
+let rosa = document.getElementById("text")
 
 // CALCULAR A MEDIA APOS O CLICK NO BOTAO
 btnCalcular.addEventListener('click', function(e) {
@@ -127,12 +128,15 @@ let calculadorDeNotas = document.getElementById("tela-principal")
 let btnCalculadoraDeNotas = document.getElementById("skill")
 btnCalculadoraDeNotas.addEventListener("click", ()=>{
     calculadorDeNotas.style.display = "block"
+    rosa.style.display = "none"
 })
 
 //fechar calculador de notas
 let fechar = document.getElementById("d")
 fechar.addEventListener("click", ()=>{
     calculadorDeNotas.style.display = "none"
+    rosa.style.display = "block"
+
 })
 
 //abrir calculadora
@@ -142,6 +146,7 @@ let btnCalc = document.getElementById("a4")
 btnCalc.addEventListener("click", ()=>{
     calc.style.display = "block"
     calc.style.marginTop = "20em"
+    rosa.style.display = "none"
     
 })
 
@@ -151,13 +156,16 @@ let materia = document.getElementById("sla")
 let exit = document.getElementById("fechar")
 exit.addEventListener("click", ()=>{
     calc.style.display = "none"
+    rosa.style.display = "block"
+
     
 })
+
 let exit2 = document.getElementById("exit2")
 
 exit2.addEventListener("click", ()=>{
     materia.style.display = "none"
-    
+    rosa.style.display = "block"
 })
 
 //menu videoaulas
